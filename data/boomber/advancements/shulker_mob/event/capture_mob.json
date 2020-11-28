@@ -1,0 +1,34 @@
+{
+	"criteria": {
+		"hit_entity": {
+			"trigger": "minecraft:player_hurt_entity",
+			"conditions": {
+				"player": {
+					"flags": {
+						"is_sneaking": true
+					},
+					"equipment": {
+						"mainhand": {
+							"tag": "boomber:shulker_mob/shulker_boxes"
+						}
+					}
+				},
+				"damage": {
+					"type": {
+						"is_projectile": false,
+						"is_fire": false,
+						"is_lightning": false,
+						"is_explosion": false,
+						"is_magic": false
+					}
+				},
+				"entity": {
+					"type": "#boomber:shulker_mob/whitelist"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "boomber:shulker_mob/event/capture_mob"
+	}
+}

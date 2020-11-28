@@ -1,0 +1,1 @@
+data modify storage boomber:shulker_mob data.Pumpkin set from entity @s Pumpkin

@@ -1,0 +1,1 @@
+data modify storage boomber:shulker_mob data.CollarColor set from entity @s CollarColor

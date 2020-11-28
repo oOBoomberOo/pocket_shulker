@@ -1,0 +1,1 @@
+execute if data entity @s Leash run loot spawn ~ ~ ~ loot boomber:shulker_mob/spawn_lead

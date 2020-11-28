@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"place_captured_mob": {
+			"trigger": "minecraft:placed_block",
+			"conditions": {
+				"item": {
+					"tag": "boomber:shulker_mob/shulker_boxes",
+					"nbt": "{BlockEntityTag: {Items: [{Slot: 0b, tag: {StoredEntity: 1b}}]}}"
+				}
+			}
+		}
+	},
+	"rewards": {
+		"function": "boomber:shulker_mob/event/release_mob"
+	}
+}

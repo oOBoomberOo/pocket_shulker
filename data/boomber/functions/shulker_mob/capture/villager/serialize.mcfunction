@@ -1,0 +1,9 @@
+data modify storage boomber:shulker_mob data.Willing set from entity @s Willing
+data modify storage boomber:shulker_mob data.LastRestock set from entity @s LastRestock
+data modify storage boomber:shulker_mob data.LastGossipDecay set from entity @s LastGossipDecay
+data modify storage boomber:shulker_mob data.RestocksToday set from entity @s RestocksToday
+data modify storage boomber:shulker_mob data.Inventory set from entity @s Inventory
+data modify storage boomber:shulker_mob data.VillagerData set from entity @s VillagerData
+data modify storage boomber:shulker_mob data.Gossips set from entity @s Gossips
+data modify storage boomber:shulker_mob data.Xp set from entity @s Xp
+data modify storage boomber:shulker_mob data.Offers set from entity @s Offers

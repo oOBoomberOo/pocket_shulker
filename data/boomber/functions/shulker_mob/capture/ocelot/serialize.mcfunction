@@ -1,0 +1,1 @@
+data modify storage boomber:shulker_mob data.Trusting set from entity @s Trusting
