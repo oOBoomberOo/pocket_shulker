@@ -3,7 +3,7 @@
         "title": "Pocket Shulker",
         "description": "Capture mob into shulker box",
         "icon": {
-            "item": "minecraft:shulker_box"
+            "item": "minecraft:light_gray_shulker_box"
         },
         "announce_to_chat": false,
         "show_toast": false
