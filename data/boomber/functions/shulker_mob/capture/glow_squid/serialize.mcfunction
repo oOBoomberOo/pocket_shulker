@@ -1,0 +1,1 @@
+data modify storage boomber:shulker_mob data.DarkTicksRemaining set from entity @s DarkTicksRemaining

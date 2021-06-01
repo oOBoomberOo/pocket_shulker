@@ -4,6 +4,7 @@
 		"#boomber:shulker_mob/tameable",
 		"#boomber:shulker_mob/aggro",
 		"minecraft:bat",
-		"minecraft:snow_golem"
+		"minecraft:snow_golem",
+		"minecraft:glow_squid"
 	]
 }

@@ -16,5 +16,8 @@ execute if entity @s[type=snow_golem] run function boomber:shulker_mob/capture/s
 execute if entity @s[type=villager] run function boomber:shulker_mob/capture/villager/deserialize
 execute if entity @s[type=wandering_trader] run function boomber:shulker_mob/capture/wandering_trader/deserialize
 execute if entity @s[type=wolf] run function boomber:shulker_mob/capture/wolf/deserialize
+execute if entity @s[type=axolotl] run function boomber:shulker_mob/capture/axolotl/deserialize
+execute if entity @s[type=goat] run function boomber:shulker_mob/capture/goat/deserialize
+execute if entity @s[type=glow_squid] run function boomber:shulker_mob/capture/glow_squid/deserialize
 
 tag @s remove boomber.shulker_mob.targeted_entity

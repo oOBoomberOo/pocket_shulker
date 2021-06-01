@@ -12,3 +12,6 @@ execute if entity @s[type=minecraft:villager] run data modify storage boomber:sh
 execute if entity @s[type=minecraft:wandering_trader] run data modify storage boomber:shulker_mob data.id set value "minecraft:wandering_trader"
 execute if entity @s[type=minecraft:wolf] run data modify storage boomber:shulker_mob data.id set value "minecraft:wolf"
 execute if entity @s[type=minecraft:snow_golem] run data modify storage boomber:shulker_mob data.id set value "minecraft:snow_golem"
+execute if entity @s[type=minecraft:axolotl] run data modify storage boomber:shulker_mob data.id set value "minecraft:axolotl"
+execute if entity @s[type=minecraft:goat] run data modify storage boomber:shulker_mob data.id set value "minecraft:goat"
+execute if entity @s[type=minecraft:glow_squid] run data modify storage boomber:shulker_mob data.id set value "minecraft:glow_squid"
