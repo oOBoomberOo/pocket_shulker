@@ -1,0 +1,19 @@
+{
+	"function": "minecraft:copy_nbt",
+	"source": {
+		"type": "storage",
+		"source": "boomber:shulker_mob"
+	},
+	"ops": [
+		{
+			"source": "shulker.data",
+			"target": "BlockEntityTag.Items",
+			"op": "append"
+		},
+		{
+			"source": "shulker.lock",
+			"target": "BlockEntityTag.Lock",
+			"op": "replace"
+		}
+	]
+}
